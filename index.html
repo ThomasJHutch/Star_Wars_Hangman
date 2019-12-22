@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars: Force Choke</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+    <script src="/assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-6" style="margin:auto; padding:25px;">
+            <img src="/assets/images/SWLogo.png" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <h2>Welcome to the Star Wars: Force Choke Game</h2>
+        <h3>Guess the name of the REBEL scum before VADER force chokes you!</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <img style="width: 100%; padding: 20px;" src="assets/images/vaderForceChoke.jpg" alt="I have you now!"
+                    title="I have you now!">
+                <!-- this is where the score counter goes (beneath vader)-->
+            </div>
+            <div class="col-md-6 game" style="border-radius: 10px;
+            border-style: solid;
+            padding: 5px;">
+                <div class="wrapper">
+                    <div class="row" style="text-align: center;">
+                        <div id="buttons">
+                        </div>
+                    </div>
+                    <br>
+                    <!-- the place where the correct letters appear -->
+                    <div class="row" style="margin: auto;">
+                        <div id="hold">
+                        </div>
+                    </div>
+                    <!-- how many lives you have -->
+                    <p id="mylives"></p>
+                    <!-- reset button -->
+                    <div class="container">
+                        <button id="reset">Play again</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
