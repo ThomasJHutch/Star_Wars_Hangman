@@ -18,14 +18,6 @@ h3 {
 }   
 
 
-/* Variabes */  
-$orange: #ffa600;
-$green: #c1d72e;
-$blue: #82d2e5;
-$grey:#f3f3f3;
-$white: #fff;
-$base-color:$green ;
-
 /* Mixin's */ 
 
 @mixin transition {
@@ -81,19 +73,17 @@ $base-color:$green ;
 
 #alphabet {
   @include clear;
-  margin:15px auto;
-  padding:0;
+  padding:10px;
   max-width:900px;
 }
 
 #alphabet li {
   float:left;
-  margin: 0 10px 10px 0;
+  margin: auto;
   list-style:none;
   width:35px;
   height:30px;
   padding-top:10px;
-  background:$white;
   color:$base-color;
   cursor:pointer;
   @include corners(5px);
@@ -108,6 +98,7 @@ $base-color:$green ;
 
 #my-word {
   margin: 0;
+  text-align: center;
   display: block;
   padding: 0;
   display:block;
